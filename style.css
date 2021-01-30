@@ -1,0 +1,48 @@
+body{
+      font-family: helvetica, sans-serif;
+      font-size: 130%;
+    }
+
+    input{
+
+      height: 40px;
+      width: 320px;
+      padding: 5px 5px 10px 5px;
+      font-size: 25px;
+      border-radius: 5px;
+      border: 1px sold grey;
+    }
+
+    label{
+      position: relative;
+      top: 15px;
+      width: 200px;
+      float: left;
+
+    }
+
+    #wrapper{
+      width: 550px;
+      margin: 0 auto; /*середина страницы*/
+    }
+
+    .form-element{
+      margin-bottom: 10px;
+    }
+
+    #submitButton{
+      width: 130px;
+      margin-left: 200px;
+    }
+
+    #errorMessage{
+      color: red;
+      font-style: italic;
+
+    }
+
+    #successMessage{
+      color:green;
+      font-style: italic;
+      display: none;
+    }
